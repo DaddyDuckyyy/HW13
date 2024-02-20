@@ -5,7 +5,6 @@ public class Book {
 
     // Конструкторы
     public Book() {
-
     }
 
     public Book(String name, Author author, int publicationYear) {
@@ -16,12 +15,10 @@ public class Book {
 
     // Сеттеры, геттеры
     public int getPublicationYear() {
-
         return publicationYear;
     }
 
     public void setPublicationYear(int publicationYear) {
-
         this.publicationYear = publicationYear;
     }
 
