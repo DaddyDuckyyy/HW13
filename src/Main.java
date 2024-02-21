@@ -3,6 +3,7 @@ public class Main {
         Author author1 = new Author("Михаил", "Афанасьевич", "Булгаков");
         Book book1 = new Book("Мастер и Маргарита", author1, 1937);
         book1.setPublicationYear(1938);
+        System.out.println(book1);
 
         Author author2 = new Author();
         author2.setFirstName("Михаил");
@@ -11,6 +12,9 @@ public class Main {
         Book book2 = new Book();
         book2.setName("Мастер и Маргарита");
         book2.setAuthor(author2);
-        book2.setPublicationYear(1937);
+        book2.setPublicationYear(1938);
+        System.out.println(book2);
+
+        System.out.println(book2.equals(book1));
     }
 }
